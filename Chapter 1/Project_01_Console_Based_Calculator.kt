@@ -1,3 +1,6 @@
+/* KOTLIN FOR THE CURIOUS - Faisal Islam */
+/* PROJECT 1: A Console-Based Calculator */
+
 import kotlin.system.exitProcess
 
 fun main() {
