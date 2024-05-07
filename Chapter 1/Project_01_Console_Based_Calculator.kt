@@ -7,19 +7,19 @@ fun main() {
 
     println("***  Console Calculator  ***")
 
-    // Step 1: input collection
+    // step 1: input collection
     println("\nEnter two numbers:\n")
     val number1 = readDoubleInput("Number 1: ")
     val number2 = readDoubleInput("Number 2: ")
 
-    // Step 2: operation selection
+    // step 2: operation selection
     showChoices()
     val operation = getArithmeticOperation()
 
-    // Step 3: calculation
+    // step 3: calculation
     val result = performCalculation(number1, number2, operation)
 
-    // Step 4: result display
+    // step 4: result display
     println("\nResult:\n" +
             "$number1 $operation $number2 = $result")
 }
@@ -56,7 +56,7 @@ fun getArithmeticOperation(): String {
 
     if(!"+-*/".contains(operation, true)){
         println("\nInvalid operation. Exiting.")
-        exitProcess(2) // Exit the program
+        exitProcess(2) // exit the program
     }
     return operation
 }

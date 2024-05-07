@@ -8,9 +8,6 @@ data class Task(val title: String,
 )
 
 class TaskManager {
-    /*companion object {
-        val taskList = mutableListOf<Task>()
-    }*/
     val taskList = mutableListOf<Task>()
 
     fun addTask(task: Task) {
