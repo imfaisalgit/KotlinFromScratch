@@ -1,5 +1,5 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 07: Projects 27 */
+/* Chapter 07: Projects 28 */
 
 // Merge sort
 
