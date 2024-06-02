@@ -17,7 +17,7 @@ import javafx.util.Duration
 
 class BouncingBall : Application() {
     override fun start(primaryStage: Stage) {
-        primaryStage.title = "Red Bouncing Ball"
+        primaryStage.title = "Bouncing Red Ball"
         val redBall = Circle(250.0, 200.0,
             30.0, Color.RED)
         val root = Pane(redBall)
