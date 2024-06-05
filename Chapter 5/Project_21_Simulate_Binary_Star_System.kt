@@ -157,6 +157,7 @@ fun updateStarPositions(stars: List<Star>, dt: Double) {
 
     var sign = 1
     for (star in stars) {
+        // update the acceleration, velocity and position of stars
         val acceleration = force / star.mass
         val ax = acceleration * rx / r
         val ay = acceleration * ry / r

@@ -59,12 +59,12 @@ class SimplePendulum : Application() {
         // call singleXYChart() to generate plots
         val xyChart1 =
             singleXYChart(list1,
-                title = "Angular Displacement Over Time",
+                title = "Angular Displacement over Time",
                 xLabel = "Time (sec)",
                 yLabel = "Angular displacement (rad)")
         val xyChart2 =
             singleXYChart(list2,
-                title = "Angular Velocity Over Time",
+                title = "Angular Velocity over Time",
                 xLabel = "Time (sec)",
                 yLabel = "Angular velocity (rad/sec)")
         val xyChart3 =

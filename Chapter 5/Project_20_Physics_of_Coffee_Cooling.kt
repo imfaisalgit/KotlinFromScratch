@@ -22,18 +22,18 @@ data class State(
 )
 
 // problem definition and global parameters
-val coffeeT0 = 92.0      // degree Celsius
+val coffeeT0 = 92.0      // degrees Celsius
 val coffeeV = 250.0      // mL
 val coffeeS = 4.190      // J/(gm C) - assumed same as water
 val coffeeD = 1.0        // gm/mL - assumed same as water
 val coffeeK = 0.0116     // 1/min
 
-val milkT0 = 4.0         // degree Celsius
+val milkT0 = 4.0         // degrees Celsius
 val milkV = 25.0         // mL
 val milkS = 3.890        // J/(gm C)
 val milkD = 1.035        // gm/mL
 
-val T_ambient = 20.0     // degree Celsius
+val T_ambient = 20.0     // degrees Celsius
 val timeMax = 25.0       // min (length of drive)
 val timeStep = 0.25      // min
 
@@ -69,7 +69,7 @@ class MixCoffeeAndMilk : Application() {
                 d2=milkD, v2=milkV,
                 s2=milkS, T2=milkT0)
         println("step 2: final temp with milk: " +
-                "${df.format(finalT1)} degree Celsius\n")
+                "${df.format(finalT1)} degrees Celsius\n")
 
         // step 3:
         val initT2 =
@@ -77,7 +77,7 @@ class MixCoffeeAndMilk : Application() {
                 T1=coffeeT0, d2=milkD, v2=milkV,
                 s2=milkS, T2=milkT0)
         println("step 3: initial temp with milk: " +
-                "${df.format(initT2)} degree Celsius")
+                "${df.format(initT2)} degrees Celsius")
 
         // step 4:
         val state2 =
@@ -114,7 +114,7 @@ fun printTimeAndTemp(datapoint: State, step: Int) {
 
     println("step $step: end time: ${df.format(endTime)} minutes")
     println("step $step: end temp: ${df.format(endTemp)} " +
-            "degree Celsius")
+            "degrees Celsius")
 }
 
 // ------------------------------------------------------------------------
@@ -151,7 +151,7 @@ fun createCoolingChart(root: VBox, states: List<List<State>>) {
         singleXYChart(states,
             title = "Temperature of Coffee Over Time",
             xLabel = "Time",
-            yLabel = "Temperature (degree Celsius)")
+            yLabel = "Temperature (degrees Celsius)")
 
     root.children.add(xyChart)
 }
