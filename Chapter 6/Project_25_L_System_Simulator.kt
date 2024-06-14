@@ -123,8 +123,6 @@ fun draw (gc: GraphicsContext) {
 // -----------------------------------------------------------------------
 
 class Turtle (private var x: Double, private var y: Double, angle: Double) {
-    // parameter "angle" is assumed to be immutable
-    // a new property of the same name is created, which is of type var (mutable)
 
     private var angleRad: Double = angle * PI /180
 
