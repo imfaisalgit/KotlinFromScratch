@@ -2,7 +2,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 09: Projects 37 */
 
-// Ant Colony System Optimization
+// Solve the Traveling Salesman Problem with Ant Colony System 
 
 
 // import block

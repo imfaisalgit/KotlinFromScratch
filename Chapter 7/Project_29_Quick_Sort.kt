@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 07: Projects 29 */
 
-// Quick sort
+// Quick Sort
 
 fun main() {
     // define an array to be sorted

@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 05: Projects 21 */
 
-// Simulating a binary star system
+// Simulate a Binary Star system
 
 // animation related tools
 import javafx.animation.KeyFrame

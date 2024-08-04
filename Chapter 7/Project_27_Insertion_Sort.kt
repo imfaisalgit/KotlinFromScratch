@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 07: Projects 27 */
 
-// Insertion sort
+// Insertion Sort
 
 fun main() {
     // define an array to be sorted

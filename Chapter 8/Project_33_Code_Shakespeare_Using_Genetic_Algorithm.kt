@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 08: Projects 33 */
 
-// To be or not to be...coding Shakespeare using genetic algorithm
+// Code Shakespeare with the Genetic Algorithm
 
 data class Solution (
     val chromosome: String,

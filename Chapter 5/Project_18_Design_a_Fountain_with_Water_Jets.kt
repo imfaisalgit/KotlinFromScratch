@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 05: Projects 18 */
 
-// Creating patterns with water jet
+// Design a Fountain with Water Jets
 
 // import JavaFX features
 import javafx.application.Application

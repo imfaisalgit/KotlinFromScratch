@@ -1,5 +1,5 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* PROJECT 5: Creating a Line Chart with Multiple Series */
+/* PROJECT 5: Create a Multieeries Line Chart */
 
 import javafx.application.Application
 import javafx.geometry.Side

@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 08: Projects 35 */
 
-// Multivariate function minimization
+// Multivariate Function Optimization with the Genetic Algorithm
 
 // import block
 import kotlin.math.sin

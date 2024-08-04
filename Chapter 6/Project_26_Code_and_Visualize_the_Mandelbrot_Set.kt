@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 06: Projects 26 */
 
-// Drawing the Mandelbrot Set
+// Code and Visualize the Mandelbrot Set
 
 import javafx.application.Application
 import javafx.scene.Scene

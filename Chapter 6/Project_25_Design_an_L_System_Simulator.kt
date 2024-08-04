@@ -1,12 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 06: Projects 25 */
 
-// The L-system Simulator
-
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 06: Projects 25 */
-
-// The L-system Simulator
+// Design an L-system Simulator
 
 // import JavaFX classes
 import javafx.application.Application

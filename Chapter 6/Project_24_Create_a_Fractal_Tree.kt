@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 06: Projects 24 */
 
-// Fractal Tree
+// Create a Fractal Tree
 
 // import JavaFX classes
 import javafx.application.Application

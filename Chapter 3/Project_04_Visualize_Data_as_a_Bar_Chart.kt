@@ -1,5 +1,5 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* PROJECT 4: Creating a Bar Chart */
+/* PROJECT 4: Visualize Data as a Bar Chart */
 
 import javafx.application.Application
 import javafx.geometry.Side

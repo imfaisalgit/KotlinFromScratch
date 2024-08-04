@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 07: Projects 30 */
 
-// Depth-first search
+// Depth-First Search
 
 import java.util.ArrayDeque
 

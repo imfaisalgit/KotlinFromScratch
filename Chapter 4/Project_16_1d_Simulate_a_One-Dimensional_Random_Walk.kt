@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 04: Projects 16 */
 
-// 1D random walk simulation
+// Simulate a One-Dimensional Random Walk
 
 // import block
 import javafx.application.Application

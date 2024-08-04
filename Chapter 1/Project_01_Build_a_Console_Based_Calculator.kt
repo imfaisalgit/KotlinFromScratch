@@ -1,5 +1,5 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* PROJECT 1: A Console-Based Calculator */
+/* PROJECT 1: Build a Console-Based Calculator */
 
 import kotlin.system.exitProcess
 

@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 05: Projects 19 */
 
-// Creating patterns with water jet
+// Track a Pendulum’s Motion and Phase 
 
 // import block
 import javafx.application.Application

@@ -4,7 +4,7 @@
 
 // -------------------- Project 09 --------------------
 
-// Finding the square root of a positive number
+// Find the Square Root with the Babylonian Algorithm
 
 fun main() {
     println("\n*** Finding Square Root Using Babylonian Algorithm ***\n")
@@ -29,7 +29,7 @@ fun babylonianSquareRoot(num: Double): Double {
 
 // -------------------- Project 10 --------------------
 
-// Generating Pythagorean triples
+// Create Pythagorean Triples with Euclid’s Formula
 
 fun main() {
     var m = 2               // value of m
@@ -60,7 +60,7 @@ fun generatePythagoreanTriple(m: Int, n: Int):
 
 // -------------------- Project 11 --------------------
 
-// Finding the first "n" prime numbers (n > 2)
+// Identify Prime Numbers with the Sieve of Eratosthenes
 
 fun main() {
     println("\n*** Find ALL Prime Numbers Up To ‘n’ ***\n")
@@ -110,7 +110,7 @@ fun sieveOfEratosthenes(n: Int): List<Int> {
 
 // -------------------- Project 12 --------------------
 
-// Measuring the radius of Earth
+// Calculate the Earth’s Circumference the Ancient Way
 
 import kotlin.math.atan
 

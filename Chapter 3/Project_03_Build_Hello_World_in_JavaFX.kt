@@ -1,5 +1,5 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* PROJECT 3: Building a Minimal JavaFX Application */
+/* PROJECT 3: Build "Hello, World!" in JavaFX */
 
 import javafx.application.Application
 import javafx.geometry.Pos

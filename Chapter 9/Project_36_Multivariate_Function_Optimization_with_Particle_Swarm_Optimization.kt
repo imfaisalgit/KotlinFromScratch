@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 09: Projects 36 */
 
-// Particle Swarm Optimization
+// Multivariate Function Optimization with Particle Swarm Optimization
 
 import kotlin.math.sin
 import kotlin.math.pow

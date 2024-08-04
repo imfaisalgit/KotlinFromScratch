@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 07: Projects 32 */
 
-// A-star search
+// A-Star Search
 
 // no import block
 

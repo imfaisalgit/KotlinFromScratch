@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 08: Projects 34 */
 
-// Jonah's Ark - Knapsack Problem
+// Solve the Knapsack Problem with the Genetic Algorithm
 
 import kotlin.math.roundToInt
 

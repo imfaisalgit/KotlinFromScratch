@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 06: Projects 23 */
 
-// The Sierpinski Triangle
+// Draw the Sierpinski Triangle
 
 // import JavaFX classes
 import javafx.application.Application

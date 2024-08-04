@@ -1,5 +1,5 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* PROJECT 2: A Simple Task Manager */
+/* PROJECT 2: Build a Versatile Task Manager */
 
 
 data class Task(val title: String,

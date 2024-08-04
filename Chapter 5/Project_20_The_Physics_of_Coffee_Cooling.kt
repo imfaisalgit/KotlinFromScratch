@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 05: Projects 20 */
 
-// The physics of coffee cooling
+// The Physics of Coffee Cooling
 
 // import block
 import javafx.application.Application

@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 05: Projects 17 */
 
-// The flight of a cannonball
+// Predict the Flight of a Cannonball
 
 // import math functions
 import kotlin.math.sin

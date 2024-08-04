@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 04: Projects 13 */
 
-// The Fibonacci spiral
+// Code the Fibonacci Sequence
 
 import javafx.application.Application
 import javafx.scene.Scene

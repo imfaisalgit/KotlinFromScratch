@@ -1,7 +1,7 @@
 /* KOTLIN FOR THE CURIOUS - Faisal Islam */
 /* Chapter 07: Projects 31 */
 
-// Breadth-first search
+// Breadth-First Search
 
 import java.util.ArrayDeque
 
