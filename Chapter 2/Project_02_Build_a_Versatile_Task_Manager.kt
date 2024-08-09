@@ -97,8 +97,8 @@ fun main() {
 
 fun readIndex(taskListSize: Int): Int? {
     val input = readln()
-    if (input.isNullOrBlank()) {
-        println("Invalid input. Please enter a task number.")
+    if (input.isBlank()) {
+        println("Invalid input. Please enter a valid task number.")
         return null
     }
 
