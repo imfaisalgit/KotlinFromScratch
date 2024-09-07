@@ -87,7 +87,6 @@ fun main() {
     calculatePheromone0()
 
     // repeat the process “maxRounds” number of times
-
     for (round in 1..maxRounds) {
         initializePheromone()
         runACS()

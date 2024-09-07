@@ -1,6 +1,7 @@
 /* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 5: Create a Multieeries Line Chart */
 
+// import block
 import javafx.application.Application
 import javafx.geometry.Side
 import javafx.scene.Scene
@@ -61,7 +62,6 @@ fun main() {
 }
 
 // provide male data points
-
 fun getMaleData(maleData: XYChart.Series<Number, Number>) {
     maleData.data.addAll(
         XYChart.Data(5, 38.0),
@@ -73,7 +73,6 @@ fun getMaleData(maleData: XYChart.Series<Number, Number>) {
 }
 
 // provide female data points
-
 fun getFemaleData(femaleData: XYChart.Series<Number, Number>) {
     femaleData.data.addAll(
         XYChart.Data(5, 36.0),

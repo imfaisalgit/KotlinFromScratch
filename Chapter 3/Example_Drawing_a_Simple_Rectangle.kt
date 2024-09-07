@@ -1,7 +1,7 @@
 /* KOTLIN FROM SCRATCH - Faisal Islam */
 /* Example: Drawing a Simple Rectangle on Canvas */
 
-
+// import block
 import javafx.application.Application
 import javafx.scene.Scene
 import javafx.scene.canvas.Canvas

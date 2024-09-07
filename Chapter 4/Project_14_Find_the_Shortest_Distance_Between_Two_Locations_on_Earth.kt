@@ -50,6 +50,7 @@ fun printLatLong(category: String, locationsToPrint: List<Location>) {
 }
 
 fun haversineDistance(): Double {
+
     // adjust signs based on N/S and E/W directions
     for (location in locations) {
         with(location) {

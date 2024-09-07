@@ -33,6 +33,7 @@ class TransitionExample : Application() {
         // and set its properties
         val transition =
             TranslateTransition(Duration.seconds(2.0), square)
+
         with (transition) {
             fromX = 0.0
             toX = pane.width - square.width

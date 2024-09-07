@@ -36,6 +36,7 @@ fun main() {
     println("\n*** Cryptography with Hill's Method ***\n")
     runValidation()
     println("\nEnter 1 for encryption or 2 for decryption:")
+
     when(val choice = readln().toInt()) {
         1 -> {
             println("You have chosen encryption\n")
@@ -58,9 +59,11 @@ fun main() {
 fun runValidation() {
     println("key matrix dimension:")
     println("${key.size}  x  ${key[0].size}\n")
+
     // validation of key and keyInv
     val productMatrix = multiplyMatricesMod29(key, keyInv,
         r1=dim, c1=dim, c2=dim)
+
     displayProduct(productMatrix)
 }
 
@@ -98,10 +101,12 @@ fun getText() {
     println("Enter text for processing:")
     var text = readln().lowercase()
     val tmp = " " // use a space for padding
+
     when(text.length % 3) {
         1 -> text = text + tmp + tmp
         2 -> text += tmp
     }
+
     for (i in text.indices step 3)
         blocks.add(Block(text[i], text[i+1], text[i+2]))
 }
@@ -164,5 +169,4 @@ fun printProcessedText(choice: Int) {
     }
     print(processedText.joinToString(""))
 }
-
 

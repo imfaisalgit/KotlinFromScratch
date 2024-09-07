@@ -27,10 +27,10 @@ val rules = listOf(
     // Rule()
 )
 
-var line =  100.0   // in pixels
+var line =  100.0    // in pixels
 val scaling = 0.33   // shrinkage factor per iteration
-val ANGLE = 60.0    // in degrees
-val depth = 5       // number of iterations
+val ANGLE = 60.0     // in degrees
+val depth = 5        // number of iterations
 
 val turtle = Turtle(150.0, 200.0, 0.0)
 
@@ -61,12 +61,12 @@ class LSystemApp : Application() {
         // the L-system simulation
 
         finalString = axiom
+
         if (depth > 0) {
-            for (i in 1..depth) {
-                generate()
-            }
+            for (i in 1..depth) generate()
             line *= (scaling).pow(depth - 1.0)
         }
+
         gc.lineWidth = 1.5
         draw(gc)
     }

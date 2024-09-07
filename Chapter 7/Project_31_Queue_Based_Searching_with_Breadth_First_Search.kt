@@ -12,6 +12,7 @@ fun main() {
         "3" to setOf("0"),
         "4" to setOf("2")
     )
+
     println("\n*** Breadth-First Search of a Graph ***\n")
     println("Graph to search:")
     for ((key,value) in graph)
@@ -24,9 +25,11 @@ fun main() {
 // ---------------------------------------------------------------------
 
 fun bfsQueue(graph: Map<String, Set<String>>, start: String): Set<String> {
+
     val visited = mutableSetOf<String>()
     visited.add(start)
-val queue = ArrayDeque<String>()
+
+    val queue = ArrayDeque<String>()
     queue.offer(start)
     
     while (queue.isNotEmpty()) {

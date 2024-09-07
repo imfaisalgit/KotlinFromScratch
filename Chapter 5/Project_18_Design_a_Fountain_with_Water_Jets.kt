@@ -1,7 +1,7 @@
 Predict the Flight of a Cannonball
 /* Projects 18: Design a Fountain with Water Jets */
 
-// import JavaFX features
+// import JavaFX classes
 import javafx.application.Application
 import javafx.scene.Scene
 import javafx.scene.canvas.Canvas
@@ -84,6 +84,7 @@ fun main() {
 
 fun getAngleAndVel() {
     var index = 0
+
     xMaxJet.zip(yMaxJet) { x, y ->
         val theta = atan(2 * y / x)
         angle[index] = theta * 180/ PI

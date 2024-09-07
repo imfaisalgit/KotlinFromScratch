@@ -1,6 +1,7 @@
 /* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 4: Visualize Data as a Bar Chart */
 
+// import block
 import javafx.application.Application
 import javafx.geometry.Side
 import javafx.scene.Scene

@@ -114,7 +114,7 @@ fun runGA() {
         // step 6: sort population in descending order (in-place)
         population.sortByDescending {it.fitness}
 
-        // optional step: print the best solution per generation
+        // step 7: print the best solution per generation
         val formatString = "%5d %44s %4d"
         println(formatString.format(generation,
             population[0].chromosome, population[0].fitness))

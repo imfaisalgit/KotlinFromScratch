@@ -167,6 +167,7 @@ fun main() {
 abstract class Shape {
     abstract fun area(): Double  // abstract method
     val name: String = "Shape"   // concrete property
+
     fun describe() {
         println("This is a $name")
     }

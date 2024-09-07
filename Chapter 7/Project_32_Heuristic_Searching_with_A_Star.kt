@@ -163,7 +163,7 @@ fun getHScore(node: String) = when (node) {
     "G" -> 4
     "H" -> 4
     "I" -> 2
-    "J" -> 0    // target node
+    "J" -> 0   // target node
     "K" -> 2
     "L" -> 4
     "M" -> 6

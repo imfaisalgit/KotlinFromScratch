@@ -1,6 +1,7 @@
 /* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 6: Draw a Spiral Seashell */
 
+// import javafx classes
 import javafx.application.Application
 import javafx.scene.Scene
 import javafx.scene.canvas.Canvas
@@ -9,6 +10,7 @@ import javafx.scene.layout.Pane
 import javafx.scene.paint.Color
 import javafx.stage.Stage
 
+// import math method
 import kotlin.math.cos
 import kotlin.math.sin
 

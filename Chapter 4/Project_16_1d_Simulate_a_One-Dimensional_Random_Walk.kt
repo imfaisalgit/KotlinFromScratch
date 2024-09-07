@@ -67,6 +67,7 @@ class RandomWalk1D : Application() {
         createRWChart2(root)
     }
 }
+
 fun main() {
     Application.launch(RandomWalk1D::class.java)
 }

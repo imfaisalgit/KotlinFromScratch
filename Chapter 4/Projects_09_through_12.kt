@@ -16,10 +16,11 @@ fun main() {
 }
 
 fun babylonianSquareRoot(num: Double): Double {
-    val tolerance = 0.000001
+    val TOL = 0.000001
     var iter = 1
     var guess = num / 2.0
-    while(Math.abs(guess * guess - num) > tolerance) {
+
+    while(Math.abs(guess * guess - num) > TOL) {
         println("iter: $iter  guess=$guess")
         guess = (guess + num / guess) / 2.0
         iter ++
@@ -101,6 +102,7 @@ fun sieveOfEratosthenes(n: Int): List<Int> {
         }
         i++
     }
+
     // collect all prime numbers into a list and return it
     for ((index, value) in primes.withIndex())
         if (value) primeNumbers.add(index)

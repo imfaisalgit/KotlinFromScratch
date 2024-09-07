@@ -130,6 +130,7 @@ fun runGA() {
             // add child to nextgen
             nextgen += child
         }
+
         // step 3: transfer nextgen to current population
         for (i in nextgen.indices)
             population[i] = nextgen[i].copy()
@@ -143,7 +144,7 @@ fun runGA() {
         // step 6: add the fittest solution to bestSolutions
         bestSolutions += population[0]
 
-        // optional step: print the fittest solution
+        // step 7: print the fittest solution
         printSolution(generation, population[0])
     }
 }

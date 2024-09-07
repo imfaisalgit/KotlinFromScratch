@@ -22,7 +22,7 @@ class BouncingBall : Application() {
             30.0, Color.RED)
         val root = Pane(redBall)
         val scene = Scene(root, 500.0, 400.0)
-        primaryStage.setScene(scene)
+        primaryStage.scene = scene
         primaryStage.show()
 
         // call the bouncyBall method

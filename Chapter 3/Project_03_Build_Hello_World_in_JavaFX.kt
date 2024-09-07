@@ -10,7 +10,6 @@ import javafx.scene.text.Font
 import javafx.scene.text.Text
 
 // create the JavaFX application calss
-
 class HelloWorld : Application() {
     override fun start(primaryStage: Stage) {
         primaryStage.title = "Primary Stage"
@@ -27,7 +26,6 @@ class HelloWorld : Application() {
 }
 
 // launch the application from the main() fucntion
-
 fun main() {
     Application.launch(HelloWorld::class.java)
 }

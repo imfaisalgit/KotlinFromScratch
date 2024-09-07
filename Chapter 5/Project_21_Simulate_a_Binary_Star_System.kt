@@ -132,7 +132,7 @@ fun initialPositions(gc: GraphicsContext) {
 // ------------------------------------------------------------------------
 
 fun drawAxes(gc: GraphicsContext) {
-    // draw the x and y axes
+    // draw the x- and y-axes
     with(gc) {
         setLineDashes()
         lineWidth = 0.25
@@ -148,7 +148,7 @@ fun updateStarPositions(stars: List<Star>, dt: Double) {
 
     val rx = stars[1].x - stars[0].x
     val ry = stars[1].y - stars[0].y
-    val r = sqrt(rx*rx + ry*ry )
+    val r = sqrt(rx * rx + ry * ry )
 
     val force =
         G * stars[0].mass * stars[1].mass / (r * r)
@@ -175,8 +175,7 @@ fun updateStarPositions(stars: List<Star>, dt: Double) {
 // ------------------------------------------------------------------------
 
 fun drawStars(gc: GraphicsContext) {
-    gc.clearRect(-canvasW/2, -canvasH/2,
-        canvasW, canvasH)
+    gc.clearRect(-canvasW/2, -canvasH/2, canvasW, canvasH)
 
     drawAxes(gc)
 

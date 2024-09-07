@@ -49,6 +49,7 @@ class FibonacciSpiral : Application() {
         printFibonacciSequenceAndRatios()
     }
 }
+
 fun main() {
     Application.launch(FibonacciSpiral::class.java)
 }
@@ -72,7 +73,7 @@ fun drawFibonacciSpiral(gc: GraphicsContext) {
             drawText(i, gc, side)
             drawArc(gc, side)
             // move to the opposite corner by adding
-            // 'side' to both x and y coordinates
+            // 'side' to both x- and y-coordinates
             translate(side, side)
             // rotate the axes counterclockwise
             rotate(-90.0)

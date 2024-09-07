@@ -62,37 +62,37 @@ class MixCoffeeAndMilk : Application() {
 
         // step 2:
         val finalT1 =
-            tempAfterMixing(d1=coffeeD, v1=coffeeV, s1=coffeeS,
-                T1=state1.last().Temp,
-                d2=milkD, v2=milkV,
-                s2=milkS, T2=milkT0)
+            tempAfterMixing(d1 = coffeeD, v1 = coffeeV, s1 = coffeeS,
+                T1 = state1.last().Temp,
+                d2 = milkD, v2=milkV,
+                s2 = milkS, T2=milkT0)
         println("step 2: final temp with milk: " +
                 "${df.format(finalT1)} degrees Celsius\n")
 
         // step 3:
         val initT2 =
-            tempAfterMixing(d1=coffeeD, v1=coffeeV, s1=coffeeS,
-                T1=coffeeT0, d2=milkD, v2=milkV,
-                s2=milkS, T2=milkT0)
+            tempAfterMixing(d1 = coffeeD, v1 = coffeeV, s1 = coffeeS,
+                T1 = coffeeT0, d2 = milkD, v2 = milkV,
+                s2 = milkS, T2 = milkT0)
         println("step 3: initial temp with milk: " +
                 "${df.format(initT2)} degrees Celsius")
 
         // step 4:
         val state2 =
-            newtonCooling(T0=initT2, Ta=T_ambient, k=coffeeK,
-                tMax=timeMax, dt=timeStep)
+            newtonCooling(T0 = initT2, Ta = T_ambient, k = coffeeK,
+                tMax = timeMax, dt = timeStep)
         printTimeAndTemp(state2.last(), 4)
 
         // step 5:
         val state3 =
-            newtonCooling(T0=finalT1, Ta=T_ambient,
-                k=coffeeK,tMax=timeMax, dt=timeStep,
-                start=timeMax)
+            newtonCooling(T0 = finalT1, Ta = T_ambient,
+                k = coffeeK,tMax = timeMax, dt = timeStep,
+                start = timeMax)
 
         val state4 =
-            newtonCooling(T0=state2.last().Temp,
-                Ta=T_ambient, k=coffeeK,
-                tMax=timeMax, dt=timeStep, start=timeMax)
+            newtonCooling(T0 = state2.last().Temp,
+                Ta = T_ambient, k = coffeeK,
+                tMax = timeMax, dt = timeStep, start = timeMax)
 
         val states =
             listOf(state1, state2, state3, state4)
@@ -120,8 +120,10 @@ fun printTimeAndTemp(datapoint: State, step: Int) {
 fun newtonCooling(T0: Double, Ta: Double, k:Double,
                   tMax: Double, dt: Double,
                   start: Double = 0.0): List<State> {
+
     val state = mutableListOf<State>()
     var t = 0.0
+
     while (t <= tMax) {
         val temp = Ta + (T0 - Ta)*exp(-k * t)
         state += State(t+start, temp)
