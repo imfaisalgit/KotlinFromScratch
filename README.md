@@ -1,5 +1,5 @@
-This repository contains example codes and full projects discussed in the book "Kotlin for the Curious."
-Link to the book: https://nostarch.com/kotlin-curious.
-Example codes are named as "Listing_number_example_name.kt" format.
+This repository contains example codes and full projects discussed in the book "Kotlin from Scratch."
+Link to the book (No Starch Press): https://nostarch.com/kotlin-scratch
+Link to the book (Amazon): https://www.amazon.com/Kotlin-Curious-Faisal-Islam-ebook/dp/B0CJBJ6JB2
 Project codes are named as "Project_number_project_name.kt" format.
 For questions and suggestions, the author can be contacted at imfaisalLOQ@outlook.com 

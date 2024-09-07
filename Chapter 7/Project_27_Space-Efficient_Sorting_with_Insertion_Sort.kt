@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 07: Projects 27 */
-
-// Insertion Sort
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 27: Space-Efficient Sorting with Insertion Sort */
 
 fun main() {
     // define an array to be sorted

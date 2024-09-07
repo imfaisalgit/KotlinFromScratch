@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 07: Projects 31 */
-
-// Breadth-First Search
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 31: Queue-Based Searching with Breadth-First Search */
 
 import java.util.ArrayDeque
 

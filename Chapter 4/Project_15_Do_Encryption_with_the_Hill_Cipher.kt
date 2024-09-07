@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 04: Projects 15 */
-
-// Do Encryption with the Hill Cipher
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 15: Do Encryption with the Hill Cipher */
 
 // declare the key matrix and its inverse
 // keyInv is based on mod 29

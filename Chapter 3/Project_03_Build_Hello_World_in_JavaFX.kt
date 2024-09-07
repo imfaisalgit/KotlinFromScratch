@@ -1,4 +1,4 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 3: Build "Hello, World!" in JavaFX */
 
 import javafx.application.Application

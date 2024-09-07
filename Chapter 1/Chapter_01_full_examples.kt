@@ -1,4 +1,4 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
 /* Chapter 01: full examples */
 
 // -------------------- Listing 01 --------------------

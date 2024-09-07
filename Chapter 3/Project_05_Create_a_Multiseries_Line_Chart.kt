@@ -1,4 +1,4 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 5: Create a Multieeries Line Chart */
 
 import javafx.application.Application
@@ -11,7 +11,7 @@ import javafx.stage.Stage
 
 class LineChartExample : Application() {
     override fun start(primaryStage: Stage) {
-        primaryStage.title = "Multi-series Line Chart Example"
+        primaryStage.title = "Multiseries Line Chart Example"
 
         // create XYAxis objects and set their properties
         val xAxis = NumberAxis()

@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 05: Projects 20 */
-
-// The Physics of Coffee Cooling
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 20: The Physics of Coffee Cooling */
 
 // import block
 import javafx.application.Application

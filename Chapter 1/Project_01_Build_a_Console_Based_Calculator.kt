@@ -1,4 +1,4 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 1: Build a Console-Based Calculator */
 
 import kotlin.system.exitProcess

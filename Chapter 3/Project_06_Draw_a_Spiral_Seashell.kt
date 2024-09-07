@@ -1,4 +1,4 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 6: Draw a Spiral Seashell */
 
 import javafx.application.Application

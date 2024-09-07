@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 08: Projects 34 */
-
-// Solve the Knapsack Problem with the Genetic Algorithm
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 34: Solve the Knapsack Problem */
 
 import kotlin.math.roundToInt
 

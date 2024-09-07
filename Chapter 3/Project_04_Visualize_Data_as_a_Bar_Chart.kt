@@ -1,4 +1,4 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
 /* PROJECT 4: Visualize Data as a Bar Chart */
 
 import javafx.application.Application

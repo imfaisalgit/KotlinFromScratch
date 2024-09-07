@@ -1,5 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* PROJECT 7: Animate a Square Using Transition */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* PROJECT 7: Animate a Square */
 
 // graphics related imports
 import javafx.application.Application

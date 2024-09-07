@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 04: Projects 14 */
-
-// Find the Shortest Distance Between Two Locations on Earth
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 14: Find the Shortest Distance Between Two Locations on Earth */
 
 // import math functions
 import kotlin.math.sin

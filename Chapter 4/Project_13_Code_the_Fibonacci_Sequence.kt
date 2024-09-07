@@ -1,5 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 04: Projects 13 */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 13: code the Fibonacci Sequence */
 
 // Code the Fibonacci Sequence
 

@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 05: Projects 18 */
-
-// Design a Fountain with Water Jets
+Predict the Flight of a Cannonball
+/* Projects 18: Design a Fountain with Water Jets */
 
 // import JavaFX features
 import javafx.application.Application

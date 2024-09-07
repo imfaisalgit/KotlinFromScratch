@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 07: Projects 29 */
-
-// Quick Sort
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 29: High-Efficiency Sorting with Quick Sort */
 
 fun main() {
     // define an array to be sorted

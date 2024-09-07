@@ -1,9 +1,6 @@
 
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 09: Projects 37 */
-
-// Solve the Traveling Salesman Problem with Ant Colony System 
-
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 37: Solve the Traveling Salesman Problem with Ant Colony System */
 
 // import block
 import java.io.File

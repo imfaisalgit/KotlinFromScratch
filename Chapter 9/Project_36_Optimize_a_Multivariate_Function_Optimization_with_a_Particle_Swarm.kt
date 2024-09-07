@@ -1,8 +1,7 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 09: Projects 36 */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 36: Optimiza a Multivariate Function with a Particle Swarm */
 
-// Multivariate Function Optimization with Particle Swarm Optimization
-
+// import block
 import kotlin.math.sin
 import kotlin.math.pow
 import kotlin.math.abs

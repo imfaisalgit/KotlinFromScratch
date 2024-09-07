@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 06: Projects 24 */
-
-// Create a Fractal Tree
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 24: Create a Fractal Tree */
 
 // import JavaFX classes
 import javafx.application.Application

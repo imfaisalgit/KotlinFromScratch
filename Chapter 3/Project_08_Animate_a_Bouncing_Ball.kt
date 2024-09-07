@@ -1,5 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* PROJECT 8: Animate a Bouncing Ball Using Timeline and KeyFrame */
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* PROJECT 8: Animate a Bouncing Ball */
 
 // graphics related imports
 import javafx.application.Application

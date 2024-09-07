@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 07: Projects 28 */
-
-// Merge Sort
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 28: FAster Sorting with Merge Sort */
 
 fun main() {
     // define an array to be sorted

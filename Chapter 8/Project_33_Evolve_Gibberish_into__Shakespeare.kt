@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 08: Projects 33 */
-
-// Code Shakespeare with the Genetic Algorithm
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 33: Evolve Gibberish itno Shakespeare */
 
 data class Solution (
     val chromosome: String,

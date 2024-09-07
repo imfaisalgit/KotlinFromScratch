@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 07: Projects 32 */
-
-// A-Star Search
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 32: Heuristic Searching with A* */
 
 // no import block
 

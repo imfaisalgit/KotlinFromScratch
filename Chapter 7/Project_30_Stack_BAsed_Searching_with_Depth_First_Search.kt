@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 07: Projects 30 */
-
-// Depth-First Search
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 30: Stack-Based Searching with Depth-First Search */
 
 import java.util.ArrayDeque
 

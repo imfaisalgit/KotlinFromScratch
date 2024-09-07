@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 06: Projects 22 */
-
-// The "Hello, world!" of Fractals
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 22: The "Hello, world!" of Fractals */
 
 // import JavaFX classes
 import javafx.application.Application

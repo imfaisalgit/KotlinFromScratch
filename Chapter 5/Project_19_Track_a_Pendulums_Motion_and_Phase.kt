@@ -1,7 +1,5 @@
-/* KOTLIN FOR THE CURIOUS - Faisal Islam */
-/* Chapter 05: Projects 19 */
-
-// Track a Pendulum’s Motion and Phase 
+/* KOTLIN FROM SCRATCH - Faisal Islam */
+/* Projects 19: Track a Pendulum’s Motion and Phase */
 
 // import block
 import javafx.application.Application
