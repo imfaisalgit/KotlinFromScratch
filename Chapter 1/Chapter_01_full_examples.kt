@@ -81,6 +81,7 @@ fun main() {
 
 fun main() {
     val hour = 13
+
     when (hour) {
         in 0..11 -> println("Good morning")
         in 12..16 -> println("Good afternoon")
@@ -92,14 +93,14 @@ fun main() {
 // -------------------- Listing 08 --------------------
 
 fun main() {
-    val size = 4 // change this to adjust the size of the square
+    val size = 4 // Change this to adjust the size of the square.
 
     // nested for loop to print a square pattern of asterisks
     for (i in 1..size) {
         for (j in 1..size) {
             print("* ")
         }
-        println() // Move to the next line after each row
+        println() // Move to the next line after each row.
     }
 }
 
@@ -126,11 +127,11 @@ fun add(x: Int, y: Int): Int {
 }
 
 fun main(){
-    // declare the variables
+    // Declare the variables.
     val a = 3
     val b = 6
     
-    // call the function to add two integers
+    // Call the function to add two integers.
     val sum = add(a, b)
     println("The sum of $a and $b is $sum.")
 }
@@ -141,21 +142,22 @@ fun main(){
 fun add(x: Double, y: Double): Double {
     return x + y
 }
+
 fun multiply(x: Double, y: Double): Double {
     return x * y
 }
 
-// change this condition to use add() or multiply()
+// Change this condition to use add() or multiply().
 val useAdd = true
 
 fun main() {
-    // declare a function variable using member reference
+    // Declare a function variable using member reference.
     val selectedFunction = if (useAdd) ::add else ::multiply
 
     val x = 3.0
     val y = 4.0
 
-    // calculate the value of the selected function
+    // Calculate the value of the selected function.
     val result = selectedFunction(x, y)
 
     // print the result
@@ -185,7 +187,7 @@ fun main() {
         print("Enter an integer: ")
         val num = readln()
 
-        // validate using try…catch block
+        // Validate using try…catch block.
         try {
             val intValue = num.toInt()
             println("You entered: $intValue")
@@ -203,7 +205,7 @@ import java.util.Scanner
 
 fun main() {
 
-    // replace the path below with the path to your file
+    // Replace the path below with the path to your file.
     val inputFile = "inputfile.txt" 
 
     try {
@@ -224,18 +226,16 @@ fun main() {
 import java.io.File
 
 fun main() {
-    // replace the file locations as needed
+    // Replace the file locations as needed.
     val inputFile = File("inputfile.txt")
     val outputFile = File("outputfile.txt")
 
-    // read all lines from the input file
+    // Read all lines from the input file.
     val lines = inputFile.readLines()
 
-    // write all lines to the output file
+    // Write all lines to the output file.
     for (line in lines) {
         outputFile.appendText("$line\n")
     }
     println("Copied input_file.txt to output_file.txt")
 }
-
-

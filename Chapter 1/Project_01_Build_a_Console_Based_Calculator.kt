@@ -29,6 +29,7 @@ fun main() {
 fun readDoubleInput(prompt: String): Double {
     print(prompt)
     val num = readln()
+    
     // check input validity
     try {
         return num.toDouble()
