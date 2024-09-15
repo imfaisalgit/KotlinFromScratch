@@ -1,10 +1,20 @@
-/* KOTLIN FROM SCRATCH - Faisal Islam */
-/* Projects 26: Code and Visualize the Mandelbrot Set */
+/* KOTLIN FROM SCRATCH - Faisal Islam
+   Projects 26: Code and Visualize the Mandelbrot Set
+
+   This is the optimized version of the code that uses
+   PixelWriter to change the color of the pixels of an image
+   in the memory before drawing the entire image in one go.
+
+*/
+
+// import block
 
 import javafx.application.Application
 import javafx.scene.Scene
 import javafx.scene.canvas.Canvas
 import javafx.scene.canvas.GraphicsContext
+import javafx.scene.image.PixelWriter
+import javafx.scene.image.WritableImage
 import javafx.scene.layout.Pane
 import javafx.scene.paint.Color
 import javafx.stage.Stage
@@ -45,7 +55,6 @@ class Mandelbrot : Application() {
     }
 }
 
-
 fun main() {
     Application.launch(Mandelbrot::class.java)
 }
@@ -56,6 +65,12 @@ fun main() {
 // using a grayscale and members as black points
 
 private fun drawMSet(gc: GraphicsContext) {
+    // initialize a writable image with specified dimensions and
+    // access its pixelWrite method to directly manipulate its pixels
+    val image = WritableImage(canvasW.toInt(), canvasH.toInt())
+    val pixelWriter: PixelWriter = image.pixelWriter
+
+
     var y = yMin
     while (y <= yMax) {
         var x = xMin
@@ -63,13 +78,17 @@ private fun drawMSet(gc: GraphicsContext) {
             val cval = getConvergence(x, y)
             val speed = cval.toDouble() / iterMax
             val factor = 1.0 -speed
-            gc.fill = Color.color(factor, factor, factor)
-            gc.fillRect(canvasW * (x - xMin)/ xRange,
-                canvasH * (y - yMin)/ yRange, 1.0, 1.0)
+            val color = Color.color(factor, factor, factor)
+
+            val pixelX = (((x - xMin) / xRange) * canvasW).toInt()
+            val pixelY = (((y - yMin) / yRange) * canvasH).toInt()
+            pixelWriter.setColor(pixelX, pixelY, color)
             x += increment
         }
         y += increment
     }
+    // draw the entire image from memory to the canvas
+    gc.drawImage(image, 0.0, 0.0)
 }
 
 // -----------------------------------------------------------------------
