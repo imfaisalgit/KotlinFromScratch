@@ -43,12 +43,12 @@ class HelloApplication : Application() {
 
         // initialize and call function to draw Sierpinski Triangle
         val b = BASE      // BASE set to 500.0 globally
-        val h = b * sin(PI/3.0)
+        val h = b * sin(PI / 3.0)
         val x1 = 300.0
         val y1 = 50.0
 
-        val x = doubleArrayOf(x1, x1-b/2, x1+b/2)
-        val y = doubleArrayOf(y1, y1+h, y1+h)
+        val x = doubleArrayOf(x1, x1 - b/2, x1 + b/2)
+        val y = doubleArrayOf(y1, y1 + h, y1 + h)
         // draw the outermost triangle
         gc.strokePolygon(x, y, 3)
         // call the recursive function
@@ -85,6 +85,6 @@ fun drawTriangle(x1: Double, y1: Double, base: Double,
 
 fun getVertices(x1: Double, y1: Double, base: Double, height: Double) : Vertices {
 
-    return Vertices(x1-base/4, y1 + height/2, x1,y1+height,
-        x1+base/4, y1 + height/2)
+    return Vertices(x1 - base/4, y1 + height/2, x1, y1 + height,
+                    x1 + base/4, y1 + height/2)
 }
