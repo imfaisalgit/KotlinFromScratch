@@ -61,7 +61,7 @@ fun drawMultiTurnSpiral(
         val angle = i * rotationStep
         val radius = i * radiusStep
 
-        val x = (width / 2.0 ) +  radius * cos(Math.toRadians(angle))
+        val x = (width / 2.0) + radius * cos(Math.toRadians(angle))
         val y = (height / 2.0) + radius * sin(Math.toRadians(angle))
 
         // Draw circles with increasing radius

@@ -19,7 +19,7 @@ val keyInv = arrayOf(
 val dim = key.size
 const val alphabet = "abcdefghijklmnopqrstuvwxyz .?"
 
-data class Block (
+data class Block(
     val t1: Char,
     val t2: Char,
     val t3: Char,

@@ -16,7 +16,7 @@ class TaskManager {
     }
 
     fun listTasks() {
-        if (taskList.size > 0 ) {
+        if (taskList.size > 0) {
             println("\nTasks:")
             for ((index, task) in taskList.withIndex()) {
                 println("${index+1}. ${task.title} - " +
@@ -83,11 +83,11 @@ fun main() {
                     print("\nEnter the task number to be deleted: ")
                     val taskNumber = readIndex(taskManager.taskList.size)
                     if (taskNumber != null) {
-                        taskManager.deleteTask(taskNumber -1)
+                        taskManager.deleteTask(taskNumber - 1)
                     }
                 }
             }
-            "5" -> break   // breaks the while() loop
+            "5" -> break   // breaks the while loop
             else -> println("\nInvalid choice. Please try again.")
         }
     }

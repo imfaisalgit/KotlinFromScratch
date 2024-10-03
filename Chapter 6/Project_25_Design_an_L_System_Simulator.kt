@@ -11,8 +11,8 @@ import javafx.stage.Stage
 import kotlin.math.*
 
 // Global declarations
-data class Rule (val key: String, val apply: String)
-data class State ( val x: Double, val y: Double, val angle: Double)
+data class Rule(val key: String, val apply: String)
+data class State(val x: Double, val y: Double, val angle: Double)
 val stack  = ArrayDeque <State> ()
 
 // global parameters
@@ -99,7 +99,7 @@ fun generate() {
 // -----------------------------------------------------------------------
 
 // function to draw a sentence on canvas
-fun draw (gc: GraphicsContext) {
+fun draw(gc: GraphicsContext) {
     for (letter in finalString) {
         when (letter.toString()) {
             "F", "G" -> turtle.lineTo(line, gc)
@@ -132,28 +132,28 @@ class Turtle (private var x: Double, private var y: Double, angle: Double) {
         y += line * sin(angleRad)
     }
 
-    fun turnRight (delta: Double) {
+    fun turnRight(delta: Double) {
         // origin @ bottom-left
         angleRad += delta* PI /180
     }
 
-    fun turnLeft (delta: Double) {
+    fun turnLeft(delta: Double) {
         // origin @ bottom-left
         angleRad -= delta* PI /180
     }
 
-    fun push () {
+    fun push() {
         stack.addLast(State(x,y,angleRad))
     }
 
-    fun pop () {
+    fun pop() {
         val (xPop, yPop, anglePop) = stack.removeLast()
         x = xPop
         y = yPop
         angleRad = anglePop
     }
 
-    fun printTurtle () {
+    fun printTurtle() {
         print("x: ${round(x*100) /100.0}  y: ${round(y * 100) /100.0}  ")
         println("angle: ${round((angleRad*180/ PI) * 100) /100.0} degrees")
     }

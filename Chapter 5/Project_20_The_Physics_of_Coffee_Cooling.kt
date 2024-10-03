@@ -108,7 +108,7 @@ fun main() {
 // ------------------------------------------------------------------------
 
 fun printTimeAndTemp(datapoint: State, step: Int) {
-    val (endTime, endTemp ) = datapoint
+    val (endTime, endTemp) = datapoint
 
     println("step $step: end time: ${df.format(endTime)} minutes")
     println("step $step: end temp: ${df.format(endTemp)} " +

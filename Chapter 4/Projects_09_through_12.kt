@@ -23,7 +23,7 @@ fun babylonianSquareRoot(num: Double): Double {
     while(Math.abs(guess * guess - num) > TOL) {
         println("iter: $iter  guess=$guess")
         guess = (guess + num / guess) / 2.0
-        iter ++
+        iter++
     }
     return guess
 }
@@ -64,7 +64,7 @@ fun generatePythagoreanTriple(m: Int, n: Int):
 // Identify Prime Numbers with the Sieve of Eratosthenes
 
 fun main() {
-    println("\n*** Find ALL Prime Numbers Up To ‘n’ ***\n")
+    println("\n*** Find All Prime Numbers Up To 'n' ***\n")
     println("Enter a number > 2 to generate the list of primes:")
     val num: Int = readln().toInt()
     println("You have entered: $num")
@@ -123,9 +123,9 @@ data class Earth(
 )
 
 fun calculateEarthMetrics(s1: Double, h1: Double,
-                          s2: Double, h2:Double, d: Double): Earth {
+                          s2: Double, h2: Double, d: Double): Earth {
     // calculate the angles of the shadows
-    val theta1 = atan((s1 / h1))
+    val theta1 = atan(s1 / h1)
     val theta2 = atan(s2 / h2)
 
     // calculate the angle at the center of the Earth

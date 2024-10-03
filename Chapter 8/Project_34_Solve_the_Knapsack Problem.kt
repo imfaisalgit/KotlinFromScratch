@@ -61,7 +61,6 @@ fun main() {
 // ---------------------------------------------------------------------------------
 
 fun printBestSolution() {
-
     bestSolutions.sortByDescending { it.fitness }
     println("\nBest solution found after $MAX_GEN generations:")
 

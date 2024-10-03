@@ -1,7 +1,7 @@
 /* KOTLIN FROM SCRATCH - Faisal Islam */
 /* Projects 33: Evolve Gibberish itno Shakespeare */
 
-data class Solution (
+data class Solution(
     val chromosome: String,
     val fitness: Int
 )

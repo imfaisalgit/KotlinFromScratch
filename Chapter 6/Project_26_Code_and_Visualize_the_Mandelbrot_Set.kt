@@ -102,7 +102,7 @@ private fun drawMSet(root: Pane) {
 
 // function to check for membership in the M-set
 
-private fun getConvergence (x: Double, y: Double): Int {
+private fun getConvergence(x: Double, y: Double): Int {
     var zx = 0.0
     var zy = 0.0
     for (i in 1..iterMax) {

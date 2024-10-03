@@ -15,9 +15,9 @@ import kotlin.math.sin
 import kotlin.math.sqrt
 
 // data classes
-data class XYChartData (val x: Double, val y: Double )
-data class PendulumData (val theta: Double, val omega: Double,
-                         val t: Double)
+data class XYChartData(val x: Double, val y: Double)
+data class PendulumData(val theta: Double, val omega: Double,
+                        val t: Double)
 
 // problem definition and global parameters
 val theta0 = -PI/6  // angular displacement at t=0, rad
@@ -83,7 +83,7 @@ fun main() {
 
 // ------------------------------------------------------------------------
 
-fun simplePendulumWithDrag (
+fun simplePendulumWithDrag(
     theta0 : Double,
     omega0 : Double,
     l: Double, g: Double, n: Int,

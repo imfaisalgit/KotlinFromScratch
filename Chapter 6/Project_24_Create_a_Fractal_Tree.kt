@@ -59,7 +59,7 @@ fun main() {
 private fun drawTree(x1: Double, y1: Double, theta: Double,
                      len: Double, phi: Double,
                      gc: GraphicsContext) {
-    if (len  > 10) {
+    if (len > 10) {
         var x2 = x1 + len * cos(theta)
         var y2 = y1 + len * sin(theta)
         //gc.stroke = Color.WHITE

@@ -25,7 +25,7 @@ val maxRounds = 50     // number of times the entire process is repeated
 
 // classes and collections
 
-data class City (
+data class City(
     val name: String,
     val node: Int,
     val x: Double,
@@ -43,19 +43,19 @@ class Ant(val id: Int, val start: Int) {
     var fitness = Double.POSITIVE_INFINITY
 
     fun setCitiesToVisit() {
-        for (i in 0 until  numCities) {
+        for (i in 0 until numCities) {
             if (i != this.start)
                 this.citiesToVisit += i
         }
     }
 }
 
-data class ArgMax (
+data class ArgMax(
     val index: Int,
     val value: Double
 )
 
-data class Solution (
+data class Solution(
     val iteration: Int,
     val antID: Int,
     val pathNodes: ArrayList<Pair<Int, Int>>,
@@ -268,7 +268,7 @@ fun buildAntTour(ant: Ant) {
 
     // edge-specific local pheromone update for the last path segment
     pheromone[ant.currentNode][ant.start] =
-        ( 1- zeta) * pheromone[ant.currentNode][ant.start] +
+        (1- zeta) * pheromone[ant.currentNode][ant.start] +
                 (zeta * pheromone0)
 }
 

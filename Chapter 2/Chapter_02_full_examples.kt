@@ -94,7 +94,6 @@ class Book(var title: String, var author: String) {
 }
 
 fun main() {
-
     val book1 = Book("The Great Gatsby", "F. Scott Fitzgerald")
 
     // display book information
